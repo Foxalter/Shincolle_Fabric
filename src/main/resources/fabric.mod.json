@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "shincolle",
+  "version": "${version}",
+
+  "name": "ShinColle Fabric Mod",
+  "description": "Add cute ship girls for battle and decoration.  This is an unofficial port of the 1.12.2-forge build to 1.14.4-fabric.",
+  "authors": [
+    "Techlorine!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/shincolle/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.techlorine.shincolle.Shincolle"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

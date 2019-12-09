@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.techlorine.shincolle.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ShincolleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
